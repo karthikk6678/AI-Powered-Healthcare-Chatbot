@@ -1,0 +1,58 @@
+This project was developed by Karthik.
+
+This project consists of **two main components**:
+
+1. **Backend (Flask + ML)** – responsible for the AI-based logic and processing
+2. **Frontend (React UI)** – responsible for the user interface and website functionality
+
+Both components must be run **simultaneously** in **two separate terminals**.
+
+---
+
+## 🔹 Step 1: Run the Backend (Flask)
+
+1. Open **Command Prompt / PowerShell**
+2. Go to your backend folder (where `api.py` is):
+
+```bash
+cd C:\Users\karth\OneDrive\Desktop\healthcare-chatbot
+```
+
+3. Run the backend:
+
+```bash
+python api.py
+```
+
+You should see something like:
+
+```
+Running on http://127.0.0.1:5000/
+```
+
+**Keep this terminal open.**
+This is your AI server.
+
+---
+
+## 🔹 Step 2: Run the Frontend (React)
+
+1. Open **another Command Prompt / PowerShell** (new window)
+2. Go to your React project:
+
+```bash
+cd C:\Users\karth\OneDrive\Desktop\healthcare-ui
+```
+
+3. Start React:
+
+```bash
+npm start
+```
+
+It will open in the browser at:
+
+```
+http://localhost:3000
+```
+
